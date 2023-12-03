@@ -21,6 +21,37 @@
                     </div>
                 </div>
                 </div>
+                <div class="mobile-menu">
+                    <div class="mobile-menu__container">
+                        <div class="mobile__logo">
+                            <a class="mobile__logo-link" href="#"></a>
+                        </div>
+                        <div class="mobile__wrp">
+                            <input id="menu-switch" type="checkbox">
+                            <label class="mobile-menu__burger" for="menu-switch">
+                            <span></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="mobile__menu-wrapper">
+                                            <div class="menu__list">
+                        <ul class="menu__list-wrp">
+                            <li class="header__nav-item">
+                                <a href="#">Пластификация</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="#">Холст</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="#">Фотобанк</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="#">Доставка и оплата</a>
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
             <nav class="nav center">
                 <div class="nav__logo">
                     <a class="logo__link" href="#"></a>
@@ -117,24 +148,18 @@
                 <div class="servise__wrp">
                     <ul class="service__list">
                         <li class="servise__item">
-                            <div class="servise__info-wrp">
-                                <div class="servise__img-wrp">
-                                    <img src="img/card1.jpg" alt="img-card" class="servise__img">
-                                </div>
-                                <div class="servise__info">
-                                    <div class="servise__info-container">
-                                        <h4 class="servise__info-title">Пластификация</h4>
-                                        <p class="servise__info-txt">от 2 650 р</p>
+                            <div class="servise__info-wrp card1">
+                                    <div class="servise__info">
+                                        <div class="servise__info-container">
+                                            <h4 class="servise__info-title">Пластификация</h4>
+                                            <p class="servise__info-txt">от 2 650 р</p>
+                                        </div>
+                                        <a href="#" class="servise__info-link"></a>
                                     </div>
-                                    <a href="#" class="servise__info-link"></a>
                                 </div>
-                            </div>
                         </li>
                         <li class="servise__item">
-                            <div class="servise__info-wrp">
-                                <div class="servise__img-wrp">
-                                    <img src="img/card2.jpg" alt="img-card" class="servise__img">
-                                </div>
+                            <div class="servise__info-wrp card2">
                                 <div class="servise__info">
                                     <div class="servise__info-container">
                                         <h4 class="servise__info-title">Холст</h4>
@@ -145,10 +170,7 @@
                             </div>
                         </li>
                         <li class="servise__item">
-                            <div class="servise__info-wrp">
-                                <div class="servise__img-wrp">
-                                    <img src="img/card3.jpg" alt="img-card" class="servise__img">
-                                </div>
+                            <div class="servise__info-wrp card3">
                                 <div class="servise__info">
                                     <div class="servise__info-container">
                                         <h4 class="servise__info-title">Фотобанк</h4>
@@ -159,10 +181,7 @@
                             </div>
                         </li>
                         <li class="servise__item">
-                            <div class="servise__info-wrp">
-                                <div class="servise__img-wrp">
-                                    <img src="img/card4.jpg" alt="img-card" class="servise__img">
-                                </div>
+                            <div class="servise__info-wrp card4">
                                 <div class="servise__info">
                                     <div class="servise__info-container">
                                         <h4 class="servise__info-title">Подарочный комплект</h4>
@@ -180,86 +199,103 @@
     <footer class="footer">
         <div class="center">
             <div class="footer__wrp">
-                <div class="footer__social-logo">
-                    <div class="footer__logo"><a href="#" class="logo__link footer-logo"></a></div>
-                    <div class="footer__social">
-                        <ul class="footer__social-list">
-                            <li class="footer__social-item">
-                                <a class="footer__social-link icon-instagram" href="https://instagram.com" target="_blank"></a>
-                            </li>
-                            <li class="footer__social-item">
-                                <a class="footer__social-link icon-vk"  href="https://vk.com" target="_blank"></a>
-                            </li>
-                            <li class="footer__social-item">
-                                <a class="footer__social-link icon-twiter" href="https://twiter.com" target="_blank"></a>
-                            </li>
-                            <li class="footer__social-item">
-                                <a class="footer__social-link icon-telegram" href="https://web.tlgrm.app/" target="_blank"></a>
-                            </li>
-                        </ul>
+                <div class="footer__wrrapper">
+                    <div class="footer__social-logo">
+                        <div class="footer__logo"><a href="#" class="logo__link footer-logo"></a></div>
+                        <div class="footer__social">
+                            <ul class="footer__social-list">
+                                <li class="footer__social-item">
+                                    <a class="footer__social-link icon-instagram" href="https://instagram.com" target="_blank"></a>
+                                </li>
+                                <li class="footer__social-item">
+                                    <a class="footer__social-link icon-vk"  href="https://vk.com" target="_blank"></a>
+                                </li>
+                                <li class="footer__social-item">
+                                    <a class="footer__social-link icon-twiter" href="https://twiter.com" target="_blank"></a>
+                                </li>
+                                <li class="footer__social-item">
+                                    <a class="footer__social-link icon-telegram" href="https://web.tlgrm.app/" target="_blank"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__menu">
+                        <div class="footer__menu-one">
+                            <ul class="footer__menu-one_list">
+                                <li class="footer__menu-one_item">
+                                    <a href="#" class="footer__menu-link">
+                                        О нас
+                                    </a>
+                                </li>
+                                <li class="footer__menu-one_item">
+                                    <a href="#" class="footer__menu-link">
+                                        Контакты
+                                    </a>
+                                </li>
+                                <li class="footer__menu-one_item">
+                                    <a href="#" class="footer__menu-link">
+                                        Новости
+                                    </a>
+                                </li>
+                                <li class="footer__menu-one_item">
+                                    <a href="#" class="footer__menu-link">
+                                        Вопрос-ответ
+                                    </a>
+                                </li>
+                                <li class="footer__menu-one_item">
+                                    <a href="#" class="footer__menu-link">
+                                        Доставка и оплата
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__menu-two">
+                            <ul class="footer__menu-two_list">
+                                <li class="footer__menu-two_item">
+                                    <a href="#" class="footer__menu-link">
+                                        Отзывы
+                                    </a>
+                                </li>
+                                <li class="footer__menu-two_item">
+                                    <a href="#" class="footer__menu-link">
+                                        Примеры работ
+                                    </a>
+                                </li>
+                                <li class="footer__menu-two_item">
+                                    <a href="#" class="footer__menu-link">
+                                        Наша продукция
+                                    </a>
+                                </li>
+                                <li class="footer__menu-two_item">
+                                    <a href="#" class="footer__menu-link">
+                                        Фото для интерьера
+                                    </a>
+                                </li>
+                                <li class="footer__menu-two_item">
+                                    <a href="#" class="footer__menu-link">
+                                        Оформление фотографий
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div class="footer__menu-one">
-                    <ul class="footer__menu-one_list">
-                        <li class="footer__menu-one_item">
-                            <a href="#" class="footer__menu-link">
-                                О нас
-                            </a>
-                        </li>
-                        <li class="footer__menu-one_item">
-                            <a href="#" class="footer__menu-link">
-                                Контакты
-                            </a>
-                        </li>
-                        <li class="footer__menu-one_item">
-                            <a href="#" class="footer__menu-link">
-                                Новости
-                            </a>
-                        </li>
-                        <li class="footer__menu-one_item">
-                            <a href="#" class="footer__menu-link">
-                                Вопрос-ответ
-                            </a>
-                        </li>
-                        <li class="footer__menu-one_item">
-                            <a href="#" class="footer__menu-link">
-                                Доставка и оплата
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer__menu-two">
-                    <ul class="footer__menu-two_list">
-                        <li class="footer__menu-two_item">
-                            <a href="#" class="footer__menu-link">
-                                Отзывы
-                            </a>
-                        </li>
-                        <li class="footer__menu-two_item">
-                            <a href="#" class="footer__menu-link">
-                                Примеры работ
-                            </a>
-                        </li>
-                        <li class="footer__menu-two_item">
-                            <a href="#" class="footer__menu-link">
-                                Наша продукция
-                            </a>
-                        </li>
-                        <li class="footer__menu-two_item">
-                            <a href="#" class="footer__menu-link">
-                                Фото для интерьера
-                            </a>
-                        </li>
-                        <li class="footer__menu-two_item">
-                            <a href="#" class="footer__menu-link">
-                                Оформление фотографий
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer__menu-icon">
+                <div class="footer__menu-icon-wrp">
                     <div class="footer__menu-icon icon-google"></div>
                     <div class="footer__menu-icon icon-aple"></div>
+                </div>
+                <div class="footer__info">
+                    <ul class="footer__info-list">
+                        <li class="footer__info-item">
+                            ООО &laquo;Лукарт&raquo;
+                        </li>
+                        <li class="footer__info-item">
+                            ИНН: 7717202311
+                        </li>
+                        <li class="footer__info-item">
+                            КПП: 7712121466
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
