@@ -70,7 +70,7 @@ body {
   padding: 30px 0;
 }
 
-.nav__logo-link {
+.logo__link {
   display: block;
   width: 250px;
   height: 60px;
@@ -278,7 +278,100 @@ body {
   background-size: contain;
   background-position: center;
 }
-
+.footer {
+  background: #384054;
+  padding: 60px 0 40px;
+}
+.footer__wrp {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-logo {
+  background: url(../../img/logo_footer.png);
+  margin: 0 0 30px 0;
+}
+.footer__social, .footer__social-logo {
+  max-width: 250px;
+  width: 100%;
+}
+.footer__social-list{
+  max-width: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__social-link {
+  display: block;
+  width: 29px;
+  height: 29px;
+}
+.icon-instagram {
+  background: url(../../img/instagram.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.icon-vk {
+  background: url(../../img/vk.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.icon-twiter {
+  background: url(../../img/twiter.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.icon-telegram {
+  background: url(../../img/telegram.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.footer__menu-link {
+  color: #EBF0F4;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.8px;
+}
+.footer__menu-one_list, .footer__menu-two_list {
+  height:185px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer__menu-one_list {
+  max-width: 156px;
+  width: 100%;
+}
+.footer__menu-two_list {
+  max-width: 221px;
+  width: 100%;
+}
+.footer__menu-icon {
+  max-width: 207px;
+  width: 100%;
+  height: 136px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer__menu-icon {
+  max-width: 207px;
+  width: 100%;
+}
+.icon-google {
+  background: url(../../img/google.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.icon-aple {
+  background: url(../../img/app.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 @media (max-width: 850px) {
   .slider__btn-next img, .slider__btn-prev img {
     width: calc(20px + 30 * (100vw - 320px) / 530);
