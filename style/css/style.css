@@ -462,6 +462,16 @@ body {
     display: block;
     padding:20px;
   }
+  .mobile__menu-wrapper {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    left:0;
+    visibility: hidden;
+    z-index: 15;
+    background: rgba(0, 0, 0, 0.7);
+  }
+
   .mobile__logo {
     width: 170px;
     height: 40px;
@@ -497,7 +507,7 @@ body {
 
   #menu-switch:checked ~ .mobile-menu__burger  {
     z-index: 3;
-    background: transparent;
+    background: #fff;
     -webkit-box-shadow: none;
     box-shadow: none;
   }

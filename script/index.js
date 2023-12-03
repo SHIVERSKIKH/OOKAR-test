@@ -1,14 +1,18 @@
 const mobileLab = document.querySelector('.mobile-menu__burger');
 const menu = document.querySelector('.menu__list');
 const input = document.getElementById('menu-switch');
+const mobileWrap = document.querySelector('.mobile__menu-wrapper');
 
 mobileLab.addEventListener('click', () => {
   if(!input.checked) {
     menu.style.display = 'flex';
     menu.style.visibility = 'visible';
+    mobileWrap.style.visibility = 'visible';
   }
    else {
+    mobileWrap.style.visibility = 'hidden';
     menu.style.visibility = 'hidden';
+    mobileLab.style.background = '';
    }
 });
 
