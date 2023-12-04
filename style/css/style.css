@@ -1,6 +1,7 @@
-@import "../css/normalize.css";
-@import "../css/nulling-styles.css";
-@import "../css/hover.css";
+@import "normalize.css";
+@import "nulling-styles.css";
+@import "hover.css";
+
 body {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
