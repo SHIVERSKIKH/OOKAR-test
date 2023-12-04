@@ -1,0 +1,37 @@
+a, button {
+    cursor: pointer;
+}
+@media (hover: hover) {
+    .header__top-contact a:hover, .header__top-email a {
+        color: black;
+        transition: all .5s ease;
+        transform: scale(110%);
+    }
+    .nav__menu-link:hover, .header__nav-item a:hover {
+        color: black;
+        transition: all .5s ease;
+    }
+
+    .mobile-menu__burger:hover {
+        opacity: .5;
+    }
+    .header__info-link:hover {
+        background: #ffff;
+    }
+    .servise__info-link:hover {
+        transition: all .5s ease;
+        transform: scale(110%);
+    }
+    .footer__social-link:hover {
+        transition: all .5s ease;
+        transform: scale(110%);
+    }
+    .footer__menu-link:hover {
+        color: black;
+        transition: all .5s ease;
+    }
+    .slider__btn-next:hover, .slider__btn-prev:hover {
+        transition: all .5s ease;
+        transform: scale(110%);
+    }
+}
