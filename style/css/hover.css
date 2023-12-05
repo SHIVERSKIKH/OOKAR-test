@@ -26,6 +26,10 @@ a, button {
         transition: all .5s ease;
         transform: scale(110%);
     }
+    .footer__menu-icon:hover {
+        transition: all .5s ease;
+        transform: scale(110%);
+    }
     .footer__menu-link:hover {
         color: black;
         transition: all .5s ease;
@@ -34,4 +38,7 @@ a, button {
         transition: all .5s ease;
         transform: scale(110%);
     }
+    .slider__dot:hover {
+        background-color: #888;
+      }
 }

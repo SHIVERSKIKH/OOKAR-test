@@ -23,8 +23,8 @@
                 </div>
                 <div class="mobile-menu">
                     <div class="mobile-menu__container">
-                        <div class="mobile__logo">
-                            <a class="mobile__logo-link" href="#"></a>
+                        <div class="header__logo">
+                            <a class="header__logo-link" href="#"></a>
                         </div>
                         <div class="mobile__wrp">
                             <input id="menu-switch" type="checkbox">
@@ -37,16 +37,21 @@
                                             <div class="menu__list">
                         <ul class="menu__list-wrp">
                             <li class="header__nav-item">
-                                <a href="#">Пластификация</a>
+                                <div class="mobile__logo">
+                                    <a class="mobile__logo-link header__nav-link" href="#"></a>
+                                </div>
                             </li>
                             <li class="header__nav-item">
-                                <a href="#">Холст</a>
+                                <a class="header__nav-link" href="#">Пластификация</a>
                             </li>
                             <li class="header__nav-item">
-                                <a href="#">Фотобанк</a>
+                                <a class="header__nav-link" href="#">Холст</a>
                             </li>
                             <li class="header__nav-item">
-                                <a href="#">Доставка и оплата</a>
+                                <a class="header__nav-link" href="#">Фотобанк</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a class="header__nav-link" href="#">Доставка и оплата</a>
                             </li>
                         </ul>
                     </div>
@@ -281,8 +286,16 @@
                     </div>
                 </div>
                 <div class="footer__menu-icon-wrp">
-                    <div class="footer__menu-icon icon-google"></div>
-                    <div class="footer__menu-icon icon-aple"></div>
+                    <div class="footer__menu-icon">
+                        <a href="https://google.com" class="icon__google-link">
+                            <img src="img/google.png" alt="google">
+                        </a>
+                    </div>
+                    <div class="footer__menu-icon">
+                        <a href="https://www.apple.com" class="icon__app-link">
+                            <img src="img/app.png" alt="app">
+                        </a>
+                    </div>
                 </div>
                 <div class="footer__info">
                     <ul class="footer__info-list">

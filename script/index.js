@@ -2,19 +2,37 @@ const mobileLab = document.querySelector('.mobile-menu__burger');
 const menu = document.querySelector('.menu__list');
 const input = document.getElementById('menu-switch');
 const mobileWrap = document.querySelector('.mobile__menu-wrapper');
+const headerLogo = document.querySelector('.header__logo-link');
+const headerLink = document.querySelectorAll('.header__nav-link');
 
 mobileLab.addEventListener('click', () => {
   if(!input.checked) {
     menu.style.display = 'flex';
     menu.style.visibility = 'visible';
     mobileWrap.style.visibility = 'visible';
+    headerLogo.style.display = 'none';
   }
    else {
-    mobileWrap.style.visibility = 'hidden';
-    menu.style.visibility = 'hidden';
-    mobileLab.style.background = '';
+    styleCloseMenu();
    }
 });
+
+function styleCloseMenu() {
+  mobileWrap.style.visibility = 'hidden';
+  menu.style.visibility = 'hidden';
+  mobileLab.style.background = '';
+  headerLogo.style.display = 'block';
+}
+
+function closeMenu(links) {
+  links.forEach((el) => {
+    el.addEventListener('click', () => {
+      input.checked = false;
+      styleCloseMenu();
+    });
+  });
+}
+closeMenu(headerLink);
 
 const sliderImagesWrp = document.querySelectorAll(".slider__images-wrp"),
   sliderLine = document.querySelector(".slider__line"), 
